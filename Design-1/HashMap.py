@@ -1,3 +1,5 @@
+# Designing HashMap
+
 class LinkedList:
     def __init__(self):
         self.lis=[]
@@ -28,7 +30,7 @@ class LinkedList:
 class MyHashMap:
 
     def __init__(self):
-        self.maxLen = 999
+        self.maxLen = 1000
         self.hashmap=[LinkedList() for i in range(self.maxLen)]
         
     def getHash(self,key):
